@@ -15,17 +15,24 @@ _DISPLAY_LOGO_ = True
 -- Q#03
 
 convertRowIndex :: Char -> Int
-convertRowIndex i = (fromEnum (toUpper i )) - 65
+convertRowIndex f = (fromEnum (toUpper f )) - 65
 
 
 
 -- Q#04
 
-_INVALID_MOVE_ = undefined
+-- _INVALID_MOVE_ = undefined
+_INVALID_MOVE_ :: (Int -> Bool)
+_INVALID_MOVE_  m = 
+    if m == (<> m)
+        then False
+        else if m == m
+            then True
 
 -- Q#05
 
-_SEP_ = undefined
+_SEP_ :: String
+_SEP_ = (_|_, _|_, _|_)
 
 -- Q#06
 
