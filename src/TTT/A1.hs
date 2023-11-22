@@ -36,11 +36,11 @@ _INVALID_MOVE_  m =
 
 -- Q#06
 
-data Square
+-- data Square
 
 -- Q#07
 
-data GameState
+-- data GameState
 
 -- Q#08
 
