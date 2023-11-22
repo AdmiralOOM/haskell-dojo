@@ -46,18 +46,18 @@ _INVALID_MOVE_  m =
 
 -- Q#09
 
-getFirstPlayer = undefined
+--getFirstPlayer = undefined
 
-getFirstPlayer_ = undefined
+--getFirstPlayer_ = undefined
 
 -- Q#10
 
-showGameState = undefined
+--showGameState = undefined
 
 -- Q#11
 
-switchPlayer = undefined
+--switchPlayer = undefined
 
 -- Q#12
 
-showSquare = undefined
+--showSquare = undefined
