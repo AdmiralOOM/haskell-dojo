@@ -31,8 +31,8 @@ _INVALID_MOVE_  m =
 
 -- Q#05
 
-_SEP_ :: String
-_SEP_ = (_|_, _|_, _|_)
+-- _SEP_ :: String
+-- _SEP_ = (_|_, _|_, _|_)
 
 -- Q#06
 
