@@ -60,4 +60,4 @@ _INVALID_MOVE_  m =
 
 -- Q#12
 
---showSquare = undefined
+-- showSquare = undefined
