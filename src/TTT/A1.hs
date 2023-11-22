@@ -22,42 +22,37 @@ convertRowIndex f = (fromEnum (toUpper f )) - 65
 -- Q#04
 
 -- _INVALID_MOVE_ = undefined
-_INVALID_MOVE_ :: (Int -> Bool)
-_INVALID_MOVE_  m = 
-    if m == (<> m)
-        then False
-        else if m == m
-            then True
+_INVALID_MOVE_ :: [Int -> Bool]
+_INVALID_MOVE_ = [10, 11, ... 99]
 
 -- Q#05
 
--- _SEP_ :: String
--- _SEP_ = (_|_, _|_, _|_)
+_SEP_ = undefined
 
 -- Q#06
 
--- data Square
+data Square
 
 -- Q#07
 
--- data GameState
+data GameState
 
 -- Q#08
 
 -- Q#09
 
---getFirstPlayer = undefined
+getFirstPlayer = undefined
 
---getFirstPlayer_ = undefined
+getFirstPlayer_ = undefined
 
 -- Q#10
 
---showGameState = undefined
+showGameState = undefined
 
 -- Q#11
 
---switchPlayer = undefined
+switchPlayer = undefined
 
 -- Q#12
 
--- showSquare = undefined
+showSquare = undefined
